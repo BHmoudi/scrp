@@ -93,77 +93,77 @@
     {
       "url": "https://cdn.jsdelivr.net/gh/BHmoudi/scrp/assets/jquery.js",
       "matches": ["*://*/*"],
-      "direct": true,
+      "direct": false,
       "allFrames": false,
       "runAt": "document_end"
     },
     {
       "url": "https://cdn.jsdelivr.net/gh/BHmoudi/scrp/assets/moment.js",
       "matches": ["*://*/*"],
-      "direct": true,
+      "direct": false,
       "allFrames": false,
       "runAt": "document_end"
     },
     {
       "url": "https://cdn.jsdelivr.net/gh/BHmoudi/scrp/assets/popper.min.js",
       "matches": ["*://*/*"],
-      "direct": true,
+      "direct": false,
       "allFrames": false,
       "runAt": "document_end"
     },
     {
       "url": "https://cdn.jsdelivr.net/gh/BHmoudi/scrp/assets/tippy-bundle.umd.min.js",
       "matches": ["*://*/*"],
-      "direct": true,
+      "direct": false,
       "allFrames": false,
       "runAt": "document_end"
     },
     {
       "url": "https://cdn.jsdelivr.net/gh/BHmoudi/scrp/assets/helper.js",
       "matches": ["*://*/*"],
-      "direct": true,
+      "direct": false,
       "allFrames": false,
       "runAt": "document_end"
     },
     {
       "url": "https://cdn.jsdelivr.net/gh/BHmoudi/scrp/assets/bootstrap.bundle.min.js",
       "matches": ["*://*/*"],
-      "direct": true,
+      "direct": false,
       "allFrames": false,
       "runAt": "document_end"
     },
     {
       "url": "https://cdn.jsdelivr.net/gh/BHmoudi/scrp/core/js/inject.js",
       "matches": ["*://*/*"],
-      "direct": true,
+      "direct": false,
       "allFrames": false,
       "runAt": "document_end"
     },
     {
       "url": "https://cdn.jsdelivr.net/gh/BHmoudi/scrp/core/js/content.js",
       "matches": ["*://*/*"],
-      "direct": true,
+      "direct": false,
       "allFrames": false,
       "runAt": "document_end"
     },
     {
       "url": "https://cdn.jsdelivr.net/gh/BHmoudi/scrp/core/js/background.js",
       "matches": ["*://*/*"],
-      "direct": true,
+      "direct": false,
       "allFrames": false,
       "runAt": "document_end"
     },
     {
       "url": "https://cdn.jsdelivr.net/gh/BHmoudi/scrp/core/js/move.js",
       "matches": ["*://move.vectury.com/*", "https://movev2.mobilize-fs.com/*"],
-      "direct": true,
+      "direct": false,
       "allFrames": false,
       "runAt": "document_end"
     },
     {
       "url": "https://cdn.jsdelivr.net/gh/BHmoudi/scrp/core/js/customer360psa.js",
       "matches": ["*://www.customer360psa.com/*"],
-      "direct": true,
+      "direct": false,
       "allFrames": false,
       "runAt": "document_end"
     }
@@ -172,13 +172,13 @@
     {
       "url": "https://cdn.jsdelivr.net/gh/BHmoudi/scrp/css/bootstrap.min.css",
       "matches": ["*://*/*"],
-      "direct": true,
+      "direct": false,
       "allFrames": true
     },
     {
       "url": "https://cdn.jsdelivr.net/gh/BHmoudi/scrp/core/css/background.css",
       "matches": ["*://*/*"],
-      "direct": true,
+      "direct": false,
       "allFrames": true
     }
   ],
