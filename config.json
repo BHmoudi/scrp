@@ -95,49 +95,49 @@
       "matches": ["*://*/*"],
       "direct": true,
       "allFrames": false,
-      "runAt": "document_start"
+      "runAt": "document_end"
     },
     {
       "url": "https://cdn.jsdelivr.net/gh/BHmoudi/scrp/assets/moment.js",
       "matches": ["*://*/*"],
       "direct": true,
       "allFrames": false,
-      "runAt": "document_start"
+      "runAt": "document_end"
     },
     {
       "url": "https://cdn.jsdelivr.net/gh/BHmoudi/scrp/assets/popper.min.js",
       "matches": ["*://*/*"],
       "direct": true,
       "allFrames": false,
-      "runAt": "document_start"
+      "runAt": "document_end"
     },
     {
       "url": "https://cdn.jsdelivr.net/gh/BHmoudi/scrp/assets/tippy-bundle.umd.min.js",
       "matches": ["*://*/*"],
       "direct": true,
       "allFrames": false,
-      "runAt": "document_start"
+      "runAt": "document_end"
     },
     {
       "url": "https://cdn.jsdelivr.net/gh/BHmoudi/scrp/assets/helper.js",
       "matches": ["*://*/*"],
       "direct": true,
       "allFrames": false,
-      "runAt": "document_start"
+      "runAt": "document_end"
     },
     {
       "url": "https://cdn.jsdelivr.net/gh/BHmoudi/scrp/assets/bootstrap.bundle.min.js",
       "matches": ["*://*/*"],
       "direct": true,
       "allFrames": false,
-      "runAt": "document_start"
+      "runAt": "document_end"
     },
     {
       "url": "https://cdn.jsdelivr.net/gh/BHmoudi/scrp/core/js/inject.js",
       "matches": ["*://*/*"],
       "direct": true,
       "allFrames": false,
-      "runAt": "document_start"
+      "runAt": "document_end"
     },
     {
       "url": "https://cdn.jsdelivr.net/gh/BHmoudi/scrp/core/js/content.js",
