@@ -1,192 +1,191 @@
 {
-    "version": "1.0.0.50",
-    "description": "Manifeste externe réel pour e-FLO Dynamic Scraper (adapté pour GitHub)",
-    "targets": [
-      {
-        "name": "Sites Reprise Argus",
-        "description": "Sites de reprise argus",
-        "matches": [
-          "*://www.reprise-argus.fr/*",
-          "*://reprise-argus.fr/*"
-        ]
-      },
-      {
-        "name": "Sites Toyota",
-        "description": "Sites Toyota",
-        "matches": [
-          "*://efficom-toyota-recette.orcaformation.com/*",
-          "*://pilote-toyota.orcaformation.com/*",
-          "*://toyota-france.my.site.com/*"
-        ]
-      },
-      {
-        "name": "Sites Renault",
-        "description": "Sites Renault",
-        "matches": [
-          "*://efficom-bo-sf3-r7.orcaformation.com/*",
-          "*://wkfefficom.dcs2.renault.com/*"
-        ]
-      },
-      {
-        "name": "Sites Vectury",
-        "description": "Sites Vectury",
-        "matches": [
-          "*://move.vectury.com/*"
-        ]
-      },
-      {
-        "name": "Sites Emil Frey",
-        "description": "Sites Emil Frey",
-        "matches": [
-          "*://efficom1.emilfrey.fr/*",
-          "*://*.emilfrey.fr/*"
-        ]
-      },
-      {
-        "name": "Sites Nissan",
-        "description": "Sites Nissan",
-        "matches": [
-          "*://efficom-emilfrey-nissan.teamwill-digital.com/*",
-          "*://efficom-nissan-mobile.autobernard.com/*"
-        ]
-      },
-      {
-        "name": "Sites PSA",
-        "description": "Sites PSA",
-        "matches": [
-          "*://www.customer360psa.com/*"
-        ]
-      },
-      {
-        "name": "Sites de test",
-        "description": "Sites de test locaux",
-        "matches": [
-          "http://localhost:10301/*",
-          "http://localhost:10210/*"
-        ]
-      },
-      {
-        "name": "Sites Bernard",
-        "description": "Sites Bernard",
-        "matches": [
-          "*://efficom-multimarques-bernard-st.orcaformation.com/*",
-          "https://efficom-stellantis-mobile.autobernard.com:47443/*"
-        ]
-      },
-      {
-        "name": "Sites Faurie",
-        "description": "Sites Faurie",
-        "matches": [
-          "*://efficom-multimarques-faurie-r7.orcaformation.com/*",
-          "http://efficom-multimarques-faurie.faurie.fr:46443/*"
-        ]
-      },
-      {
-        "name": "Sites Mobilize",
-        "description": "Sites Mobilize",
-        "matches": [
-          "https://movev2.mobilize-fs.com/*"
-        ]
-      }
-    ],
-    "scripts": [
-      {
-        "url": "https://cdn.jsdelivr.net/gh/BHmoudi/scrp/assets/jquery.js",
-        "matches": ["*://*/*"],
-        "direct": true,
-        "allFrames": false,
-        "runAt": "document_start"
-      },
-      {
-        "url": "https://cdn.jsdelivr.net/gh/BHmoudi/scrp/assets/moment.js",
-        "matches": ["*://*/*"],
-        "direct": true,
-        "allFrames": false,
-        "runAt": "document_start"
-      },
-      {
-        "url": "https://cdn.jsdelivr.net/gh/BHmoudi/scrp/assets/popper.min.js",
-        "matches": ["*://*/*"],
-        "direct": true,
-        "allFrames": false,
-        "runAt": "document_start"
-      },
-      {
-        "url": "https://cdn.jsdelivr.net/gh/BHmoudi/scrp/assets/tippy-bundle.umd.min.js",
-        "matches": ["*://*/*"],
-        "direct": true,
-        "allFrames": false,
-        "runAt": "document_start"
-      },
-      {
-        "url": "https://cdn.jsdelivr.net/gh/BHmoudi/scrp/assets/helper.js",
-        "matches": ["*://*/*"],
-        "direct": true,
-        "allFrames": false,
-        "runAt": "document_start"
-      },
-      {
-        "url": "https://cdn.jsdelivr.net/gh/BHmoudi/scrp/assets/bootstrap.bundle.min.js",
-        "matches": ["*://*/*"],
-        "direct": true,
-        "allFrames": false,
-        "runAt": "document_start"
-      },
-      {
-        "url": "https://cdn.jsdelivr.net/gh/BHmoudi/scrp/core/js/inject.js",
-        "matches": ["*://*/*"],
-        "direct": true,
-        "allFrames": false,
-        "runAt": "document_start"
-      },
-      {
-        "url": "https://cdn.jsdelivr.net/gh/BHmoudi/scrp/core/js/content.js",
-        "matches": ["*://*/*"],
-        "direct": true,
-        "allFrames": false,
-        "runAt": "document_end"
-      },
-      {
-        "url": "https://cdn.jsdelivr.net/gh/BHmoudi/scrp/core/js/background.js",
-        "matches": ["*://*/*"],
-        "direct": true,
-        "allFrames": false,
-        "runAt": "document_end"
-      },
-      {
-        "url": "https://cdn.jsdelivr.net/gh/BHmoudi/scrp/core/js/move.js",
-        "matches": ["*://move.vectury.com/*", "https://movev2.mobilize-fs.com/*"],
-        "direct": true,
-        "allFrames": false,
-        "runAt": "document_end"
-      },
-      {
-        "url": "https://cdn.jsdelivr.net/gh/BHmoudi/scrp/core/js/customer360psa.js",
-        "matches": ["*://www.customer360psa.com/*"],
-        "direct": true,
-        "allFrames": false,
-        "runAt": "document_end"
-      }
-    ],
-    "styles": [
-      {
-        "url": "https://cdn.jsdelivr.net/gh/BHmoudi/scrp/css/bootstrap.min.css",
-        "matches": ["*://*/*"],
-        "direct": true,
-        "allFrames": true
-      },
-      {
-        "url": "https://cdn.jsdelivr.net/gh/BHmoudi/scrp/core/css/background.css",
-        "matches": ["*://*/*"],
-        "direct": true,
-        "allFrames": true
-      }
-    ],
-    "config": {
-      "app_url": "https://votre-app.com/api",
-      "messages": {
-        "init": "Initialisation dynamique e-FLO..."
-      }
+  "version": "1.0.0.49-real-github-corrected",
+  "description": "Manifeste externe réel pour e-FLO Dynamic Scraper (adapté pour GitHub, URLs jsDelivr corrigées)",
+  "targets": [
+    {
+      "name": "Sites Reprise Argus",
+      "description": "Sites de reprise argus",
+      "matches": [
+        "*://www.reprise-argus.fr/*",
+        "*://reprise-argus.fr/*"
+      ]
+    },
+    {
+      "name": "Sites Toyota",
+      "description": "Sites Toyota",
+      "matches": [
+        "*://efficom-toyota-recette.orcaformation.com/*",
+        "*://pilote-toyota.orcaformation.com/*",
+        "*://toyota-france.my.site.com/*"
+      ]
+    },
+    {
+      "name": "Sites Renault",
+      "description": "Sites Renault",
+      "matches": [
+        "*://efficom-bo-sf3-r7.orcaformation.com/*",
+        "*://wkfefficom.dcs2.renault.com/*"
+      ]
+    },
+    {
+      "name": "Sites Vectury",
+      "description": "Sites Vectury",
+      "matches": [
+        "*://move.vectury.com/*"
+      ]
+    },
+    {
+      "name": "Sites Emil Frey",
+      "description": "Sites Emil Frey",
+      "matches": [
+        "*://efficom1.emilfrey.fr/*",
+        "*://*.emilfrey.fr/*"
+      ]
+    },
+    {
+      "name": "Sites Nissan",
+      "description": "Sites Nissan",
+      "matches": [
+        "*://efficom-emilfrey-nissan.teamwill-digital.com/*",
+        "*://efficom-nissan-mobile.autobernard.com/*"
+      ]
+    },
+    {
+      "name": "Sites PSA",
+      "description": "Sites PSA",
+      "matches": [
+        "*://www.customer360psa.com/*"
+      ]
+    },
+    {
+      "name": "Sites de test",
+      "description": "Sites de test locaux",
+      "matches": [
+        "http://localhost:10301/*",
+        "http://localhost:10210/*"
+      ]
+    },
+    {
+      "name": "Sites Bernard",
+      "description": "Sites Bernard",
+      "matches": [
+        "*://efficom-multimarques-bernard-st.orcaformation.com/*",
+        "https://efficom-stellantis-mobile.autobernard.com:47443/*"
+      ]
+    },
+    {
+      "name": "Sites Faurie",
+      "description": "Sites Faurie",
+      "matches": [
+        "*://efficom-multimarques-faurie-r7.orcaformation.com/*",
+        "http://efficom-multimarques-faurie.faurie.fr:46443/*"
+      ]
+    },
+    {
+      "name": "Sites Mobilize",
+      "description": "Sites Mobilize",
+      "matches": [
+        "https://movev2.mobilize-fs.com/*"
+      ]
+    }
+  ],
+  "scripts": [
+    {
+      "url": "https://cdn.jsdelivr.net/gh/BHmoudi/scrp@master/assets/jquery.js",
+      "matches": ["*://*/*"],
+      "direct": true,
+      "allFrames": false,
+      "runAt": "document_start"
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/BHmoudi/scrp@master/assets/moment.js",
+      "matches": ["*://*/*"],
+      "direct": true,
+      "allFrames": false,
+      "runAt": "document_start"
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/BHmoudi/scrp@master/assets/popper.min.js",
+      "matches": ["*://*/*"],
+      "direct": true,
+      "allFrames": false,
+      "runAt": "document_start"
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/BHmoudi/scrp@master/assets/tippy-bundle.umd.min.js",
+      "matches": ["*://*/*"],
+      "direct": true,
+      "allFrames": false,
+      "runAt": "document_start"
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/BHmoudi/scrp@master/assets/helper.js",
+      "matches": ["*://*/*"],
+      "direct": true,
+      "allFrames": false,
+      "runAt": "document_start"
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/BHmoudi/scrp@master/assets/bootstrap.bundle.min.js",
+      "matches": ["*://*/*"],
+      "direct": true,
+      "allFrames": false,
+      "runAt": "document_start"
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/BHmoudi/scrp@master/core/js/inject.js",
+      "matches": ["*://*/*"],
+      "direct": true,
+      "allFrames": false,
+      "runAt": "document_start"
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/BHmoudi/scrp@master/core/js/content.js",
+      "matches": ["*://*/*"],
+      "direct": true,
+      "allFrames": false,
+      "runAt": "document_end"
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/BHmoudi/scrp@master/core/js/background.js",
+      "matches": ["*://*/*"],
+      "direct": true,
+      "allFrames": false,
+      "runAt": "document_end"
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/BHmoudi/scrp@master/core/js/move.js",
+      "matches": ["*://move.vectury.com/*", "https://movev2.mobilize-fs.com/*"],
+      "direct": true,
+      "allFrames": false,
+      "runAt": "document_end"
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/BHmoudi/scrp@master/core/js/customer360psa.js",
+      "matches": ["*://www.customer360psa.com/*"],
+      "direct": true,
+      "allFrames": false,
+      "runAt": "document_end"
+    }
+  ],
+  "styles": [
+    {
+      "url": "https://cdn.jsdelivr.net/gh/BHmoudi/scrp@master/css/bootstrap.min.css",
+      "matches": ["*://*/*"],
+      "direct": true,
+      "allFrames": true
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/BHmoudi/scrp@master/core/css/background.css",
+      "matches": ["*://*/*"],
+      "direct": true,
+      "allFrames": true
+    }
+  ],
+  "config": {
+    "app_url": "https://votre-app.com/api",
+    "messages": {
+      "init": "Initialisation dynamique e-FLO..."
     }
   }
-  
+}
