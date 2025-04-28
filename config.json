@@ -91,77 +91,77 @@
   ],
   "scripts": [
     {
-      "url": "https://cdn.jsdelivr.net/gh/BHmoudi/scrp@master/assets/jquery.js",
+      "url": "https://cdn.jsdelivr.net/gh/BHmoudi/scrp/assets/jquery.js",
       "matches": ["*://*/*"],
       "direct": true,
       "allFrames": false,
       "runAt": "document_start"
     },
     {
-      "url": "https://cdn.jsdelivr.net/gh/BHmoudi/scrp@master/assets/moment.js",
+      "url": "https://cdn.jsdelivr.net/gh/BHmoudi/scrp/assets/moment.js",
       "matches": ["*://*/*"],
       "direct": true,
       "allFrames": false,
       "runAt": "document_start"
     },
     {
-      "url": "https://cdn.jsdelivr.net/gh/BHmoudi/scrp@master/assets/popper.min.js",
+      "url": "https://cdn.jsdelivr.net/gh/BHmoudi/scrp/assets/popper.min.js",
       "matches": ["*://*/*"],
       "direct": true,
       "allFrames": false,
       "runAt": "document_start"
     },
     {
-      "url": "https://cdn.jsdelivr.net/gh/BHmoudi/scrp@master/assets/tippy-bundle.umd.min.js",
+      "url": "https://cdn.jsdelivr.net/gh/BHmoudi/scrp/assets/tippy-bundle.umd.min.js",
       "matches": ["*://*/*"],
       "direct": true,
       "allFrames": false,
       "runAt": "document_start"
     },
     {
-      "url": "https://cdn.jsdelivr.net/gh/BHmoudi/scrp@master/assets/helper.js",
+      "url": "https://cdn.jsdelivr.net/gh/BHmoudi/scrp/assets/helper.js",
       "matches": ["*://*/*"],
       "direct": true,
       "allFrames": false,
       "runAt": "document_start"
     },
     {
-      "url": "https://cdn.jsdelivr.net/gh/BHmoudi/scrp@master/assets/bootstrap.bundle.min.js",
+      "url": "https://cdn.jsdelivr.net/gh/BHmoudi/scrp/assets/bootstrap.bundle.min.js",
       "matches": ["*://*/*"],
       "direct": true,
       "allFrames": false,
       "runAt": "document_start"
     },
     {
-      "url": "https://cdn.jsdelivr.net/gh/BHmoudi/scrp@master/core/js/inject.js",
+      "url": "https://cdn.jsdelivr.net/gh/BHmoudi/scrp/core/js/inject.js",
       "matches": ["*://*/*"],
       "direct": true,
       "allFrames": false,
       "runAt": "document_start"
     },
     {
-      "url": "https://cdn.jsdelivr.net/gh/BHmoudi/scrp@master/core/js/content.js",
+      "url": "https://cdn.jsdelivr.net/gh/BHmoudi/scrp/core/js/content.js",
       "matches": ["*://*/*"],
       "direct": true,
       "allFrames": false,
       "runAt": "document_end"
     },
     {
-      "url": "https://cdn.jsdelivr.net/gh/BHmoudi/scrp@master/core/js/background.js",
+      "url": "https://cdn.jsdelivr.net/gh/BHmoudi/scrp/core/js/background.js",
       "matches": ["*://*/*"],
       "direct": true,
       "allFrames": false,
       "runAt": "document_end"
     },
     {
-      "url": "https://cdn.jsdelivr.net/gh/BHmoudi/scrp@master/core/js/move.js",
+      "url": "https://cdn.jsdelivr.net/gh/BHmoudi/scrp/core/js/move.js",
       "matches": ["*://move.vectury.com/*", "https://movev2.mobilize-fs.com/*"],
       "direct": true,
       "allFrames": false,
       "runAt": "document_end"
     },
     {
-      "url": "https://cdn.jsdelivr.net/gh/BHmoudi/scrp@master/core/js/customer360psa.js",
+      "url": "https://cdn.jsdelivr.net/gh/BHmoudi/scrp/core/js/customer360psa.js",
       "matches": ["*://www.customer360psa.com/*"],
       "direct": true,
       "allFrames": false,
@@ -170,13 +170,13 @@
   ],
   "styles": [
     {
-      "url": "https://cdn.jsdelivr.net/gh/BHmoudi/scrp@master/css/bootstrap.min.css",
+      "url": "https://cdn.jsdelivr.net/gh/BHmoudi/scrp/css/bootstrap.min.css",
       "matches": ["*://*/*"],
       "direct": true,
       "allFrames": true
     },
     {
-      "url": "https://cdn.jsdelivr.net/gh/BHmoudi/scrp@master/core/css/background.css",
+      "url": "https://cdn.jsdelivr.net/gh/BHmoudi/scrp/core/css/background.css",
       "matches": ["*://*/*"],
       "direct": true,
       "allFrames": true
