@@ -1,6 +1,6 @@
 {
-  "version": "1.0.0.49-real-github-corrected",
-  "description": "Manifeste externe réel pour e-FLO Dynamic Scraper (adapté pour GitHub, URLs jsDelivr corrigées)",
+  "version": "1.0.0.50",
+  "description": "Manifeste externe réel pour e-FLO Dynamic Scraper",
   "targets": [
     {
       "name": "Sites Reprise Argus",
